@@ -466,3 +466,7 @@
     padding-right: 0;
     border-right: none;
 }
+
+.footer .hr{
+    width: 50%;
+}
