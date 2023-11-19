@@ -422,6 +422,7 @@ body{
     border: 1px solid #FFFFFF;
     border-radius: 35px;
     transition: .3s;
+    background-color: rgba(4, 161, 161, 0.445);
 }
 
 .footer .btn.btn-social:hover {
@@ -492,19 +493,36 @@ body{
 }
 .card:hover{
     background-color: var(--primary);
+    color: #fff;
+    
 }
-.card-body{
-    font-family: 'Times New Roman', Times, serif;
-}
+.card:hover .card-title {
+    color: #fff; /* Change text color to white on hover */
+  }
+.card:hover .card-content {
+    color: #fff; /* Change text color to white on hover */
+  }
+
+.card:hover a {
+    color: #fff; /* Change link color to white on hover */
+  }
+  .card:hover a i {
+    color: #fff; /* Change icon color to white on hover */
+  }
 .contain{
- background-color: #eaf7f8;
+ background-color: #ece6e6;
 }
 h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
     color: #333;
     font-family: arial,san-serif;
 }
 .tml{
+    background-color: white;
     font-size: 34px;
     font-weight:600;
     font-family: 'Times New Roman', Times, serif;
+    margin-top: 4px;
+    margin-bottom: 4px;
+    padding-top: 4px;
+    padding-bottom: 4px;
 }
