@@ -5,6 +5,10 @@
     --dark: #181d38;
 }
 
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
 .fw-medium {
     font-weight: 600 !important;
 }
@@ -16,22 +20,26 @@
 
 /* The element below the container */
 .below {
-    position: relative; /* or absolute */
-    z-index: 1; /* or any lower number */
-  }
-  
-  /* The container above the other element */
-  .cont {
-    position: relative; /* or absolute */
-    z-index: 2; /* or any higher number */
+    position: relative;
+    /* or absolute */
+    z-index: 1;
+    /* or any lower number */
+}
+
+/* The container above the other element */
+.cont {
+    position: relative;
+    /* or absolute */
+    z-index: 2;
+    /* or any higher number */
     padding-bottom: 0;
     padding-top: 0;
     padding: 0;
     border-radius: 5px;
     background-color: white;
     margin-top: -65px;
-  }
-  
+}
+
 .back-to-top {
     position: fixed;
     display: none;
@@ -467,6 +475,36 @@
     border-right: none;
 }
 
-.footer .hr{
+.footer .hr {
     width: 50%;
+}
+
+.card {
+    width: 18rem;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    overflow: hidden;
+    padding: 0;
+    margin: 0;
+    margin-top: 3px;
+    margin-bottom: 2px;
+    margin-left: 15px;
+}
+.card:hover{
+    background-color: var(--primary);
+}
+.card-body{
+    font-family: 'Times New Roman', Times, serif;
+}
+.contain{
+ background-color: #eaf7f8;
+}
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+    color: #333;
+    font-family: arial,san-serif;
+}
+.tml{
+    font-size: 34px;
+    font-weight:600;
+    font-family: 'Times New Roman', Times, serif;
 }
