@@ -509,9 +509,17 @@ body{
   .card:hover a i {
     color: #fff; /* Change icon color to white on hover */
   }
+
+  /* color of the leads side */
 .contain{
- background-color: #ece6e6;
+ background-color: #f5f5f5;
 }
+
+.container{
+    color: #333;
+}
+
+
 h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
     color: #333;
     font-family: arial,san-serif;
@@ -526,3 +534,38 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
     padding-top: 4px;
     padding-bottom: 4px;
 }
+
+.visitken{
+    background-image: url(/img/backgroundgold.png);
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-position-x: center;
+    background-size: cover;
+    -webkit-background-size: cover;
+}
+
+.visitken-inner{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    text-align: center;
+    justify-content: center;
+}
+
+.visitken-title{
+    font-size: 32px;  
+    color: #fff;
+    line-height: 1.2;
+    font-weight: 700;
+    position: relative;
+    margin-top: 0;
+    margin-bottom: 15px;
+}
+
+.visitken-desc{
+    font-size: 16px;
+    color: #fff;
+    line-height: 28px;
+    padding-top: 8px;
+    padding-bottom: 25px;
+}
+
