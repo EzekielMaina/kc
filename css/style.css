@@ -512,10 +512,6 @@ body{
  height: 110px;
 }
 
-.container{
-    color: #333;
-    flex: auto;
-}
 .container_investigator{
     justify-content: center;
     align-items: center;
@@ -578,12 +574,7 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
   box-sizing: border-box;
 }
 
-.container {
-  padding: 100px 30px;
-  width: 100%;
-  margin: 0 auto;
-  max-width: 900px;
-}
+
 
 .image-stack::after {
   content: ' ';
