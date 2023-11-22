@@ -526,6 +526,7 @@ body{
  height: 110px;
 }
 
+
 .container_investigator{
     justify-content: center;
     align-items: center;
@@ -588,11 +589,14 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
   box-sizing: border-box;
 }
 
-.container {
+.conainer {
   padding: 100px 30px;
   width: 100%;
   margin: 0 auto;
   max-width: 900px;
+}
+.image-stack{
+    position: relative;
 }
 
 .image-stack::after {
@@ -683,3 +687,37 @@ img {
   margin: 20px;
 
 }
+.w3_img{
+    width:"50px";
+  height:"80px";
+}
+
+.black-box {
+    position: relative;
+    z-index: 1;
+    /* border: 2px solid black; */
+    height: 400px;
+    width:100%;
+    margin: 80px;
+  }
+  
+  .gray-box {
+    position: absolute;
+    z-index: 3; /* gray box will be above both green and black box */
+    /* background: lightgray; */
+    height: 200px;  
+    width: 70%;
+    left: 40px;
+    bottom: 200px;
+    top: 20px;
+  }
+  
+  .green-box {
+    position: absolute;
+    z-index: 3; /* green box will be above black box */
+    /* background: lightgreen; */
+    width: 105%;
+    left: 220px;
+    top: 15px;
+    height: 700px;
+  }
