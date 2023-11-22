@@ -215,7 +215,21 @@ body{
     flex-direction: column;
 }
 
-.header-carousel .owl-nav .owl-prev,
+.header-carousel .owl-nav .owl-prev{
+    margin: 7px 0;
+    width: 45px;
+    height: 45px;
+    float: left;
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    color: #FFFFFF;
+    background: transparent;
+    border: 3px solid #06BBCC;
+    font-size: 22px;
+    transition: .5s;
+
+}
 .header-carousel .owl-nav .owl-next {
     margin: 7px 0;
     width: 45px;
@@ -512,10 +526,6 @@ body{
  height: 110px;
 }
 
-.container{
-    color: #333;
-    flex: auto;
-}
 .container_investigator{
     justify-content: center;
     align-items: center;
@@ -597,7 +607,7 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
     margin-right: -100%;
     padding-top: 15%; 
     position: relative;
-    z-index: 1;
+    z-index: 2;
 }
 
 .image-stack__item--bottom {
