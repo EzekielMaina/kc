@@ -530,7 +530,7 @@ body{
  max-width: inherit;
  margin-top: 0px;
  margin: 0px;
- margin-top: -27%;
+ /* margin-top: 27%; */
 }
 
 
@@ -596,12 +596,6 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
   box-sizing: border-box;
 }
 
-.conainer {
-  padding: 100px 30px;
-  width: 100%;
-  margin: 0 auto;
-  max-width: 900px;
-}
 .image-stack{
     position: relative;
 }
@@ -705,15 +699,15 @@ img {
     z-index: 1;
     /* border: 2px solid black; */
     height: 400px;
-    width:100%;
+    width: 100%;
     margin: 80px;
   }
   
   .gray-box {
     position: absolute;
-    z-index: 3; /* gray box will be above both green and black box */
+    z-index: 3;
     /* background: lightgray; */
-    height: 200px;  
+    height: 200px;
     width: 70%;
     left: 40px;
     bottom: 200px;
@@ -722,10 +716,41 @@ img {
   
   .green-box {
     position: absolute;
-    z-index: 3; /* green box will be above black box */
+    z-index: 3;
     /* background: lightgreen; */
     width: 105%;
-    left: 220px;
+    left: 230px;
     top: 15px;
     height: 700px;
   }
+  .conainer{
+    position: relative;
+    max-height: fit-content;
+  }
+  /* Media query for phone devices */
+  @media only screen and (max-width: 900px) {
+    .black-box {
+      margin: 5px;
+    }
+  
+    .gray-box {
+      width: 90%;
+      left: 1%; 
+       bottom: 100px;
+      z-index: 2;
+    }
+  
+    .green-box {
+        left: 163px;
+      z-index: 2;
+      position: absolute;
+    }
+    .conainer{
+        justify-content: center;
+        align-items: center;
+    }
+    .clip{
+        z-index: 5%;
+    }
+  }
+  
