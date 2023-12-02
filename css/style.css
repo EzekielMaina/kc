@@ -5,7 +5,7 @@
     --dark: #181d38;
 }
 
-body{
+body {
     font-family: Georgia, 'Times New Roman', Times, serif;
     margin: 0;
     padding: 0;
@@ -218,7 +218,7 @@ body{
     flex-direction: column;
 }
 
-.header-carousel .owl-nav .owl-prev{
+.header-carousel .owl-nav .owl-prev {
     margin: 7px 0;
     width: 45px;
     height: 45px;
@@ -233,6 +233,7 @@ body{
     transition: .5s;
 
 }
+
 .header-carousel .owl-nav .owl-next {
     margin: 7px 0;
     width: 45px;
@@ -504,50 +505,69 @@ body{
     padding: 0;
     margin: 0;
 }
+
 /* .card:hover{
     background-color: var(--primary);
     color: #fff;
     
 } */
 .card:hover .card-title {
-    color: #fff; /* Change text color to white on hover */
-  }
+    color: #fff;
+    /* Change text color to white on hover */
+}
+
 .card:hover .card-content {
-    color: #fff; /* Change text color to white on hover */
-  }
+    color: #fff;
+    /* Change text color to white on hover */
+}
 
 .card:hover a {
-    color: #fff; /* Change link color to white on hover */
-  }
-  .card:hover a i {
-    color: #fff; /* Change icon color to white on hover */
-  }
+    color: #fff;
+    /* Change link color to white on hover */
+}
 
-  /* color of the leads side */
-.contain{
- background-color: #f5f5f5;
- /* height: 110px; */
- max-width: inherit;
- margin-top: 0px;
- margin: 0px;
- /* margin-top: 27%; */
+.card:hover a i {
+    color: #fff;
+    /* Change icon color to white on hover */
+}
+
+/* color of the leads side */
+.contain {
+    background-color: #f5f5f5;
+    /* height: 110px; */
+    max-width: inherit;
+    margin-top: 0px;
+    margin: 0px;
+    /* margin-top: 27%; */
 }
 
 
-.container_investigator{
+.container_investigator {
     justify-content: center;
     align-items: center;
     display: flex;
 }
 
-h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6 {
     color: #333;
-    font-family: arial,san-serif;
+    font-family: arial, san-serif;
 }
-.tml{
+
+.tml {
     background-color: white;
     font-size: 34px;
-    font-weight:600;
+    font-weight: 600;
     font-family: 'Times New Roman', Times, serif;
     margin-top: 4px;
     margin-bottom: 4px;
@@ -555,7 +575,7 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
     padding-bottom: 4px;
 }
 
-.visitken{
+.visitken {
     /* background-image: url(/img/backgroundgold.png); */
     background-repeat: no-repeat;
     background-position: center top;
@@ -564,7 +584,7 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
     -webkit-background-size: cover;
 }
 
-.visitken-inner{
+.visitken-inner {
     padding-top: 15px;
     padding-bottom: 15px;
     text-align: center;
@@ -573,8 +593,8 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
     justify-content: center;
 }
 
-.visitken-title{
-    font-size: 32px;  
+.visitken-title {
+    font-size: 32px;
     color: #fff;
     line-height: 1.2;
     font-weight: 700;
@@ -583,7 +603,7 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
     margin-bottom: 15px;
 }
 
-.visitken-desc{
+.visitken-desc {
     font-size: 16px;
     color: #fff;
     line-height: 28px;
@@ -593,24 +613,24 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
 
 /* // Non relevant styles */
 * {
-  box-sizing: border-box;
+    box-sizing: border-box;
 }
 
-.image-stack{
+.image-stack {
     position: relative;
 }
 
 .image-stack::after {
-  content: ' ';
-  display: table;
-  clear: both;
+    content: ' ';
+    display: table;
+    clear: both;
 }
 
 .image-stack__item--top {
     float: left;
     width: 66%;
     margin-right: -100%;
-    padding-top: 15%; 
+    padding-top: 15%;
     position: relative;
     z-index: 2;
 }
@@ -619,6 +639,7 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
     float: right;
     width: 100%;
 }
+
 .image-stack__item--bottom_left {
     float: left;
     margin: 0;
@@ -626,18 +647,18 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
 }
 
 img {
-  width: 100%;
+    width: 100%;
 }
 
 
-  
-  .check li {
+
+.check li {
     list-style: none;
     margin: 0 15px;
-  }
-  
-  .check li a {
-    position: relative; 
+}
+
+.check li a {
+    position: relative;
     display: block;
     width: 60px;
     height: 60px;
@@ -648,9 +669,9 @@ img {
     font-size: 30px;
     color: #666;
     transition: .5s;
-  }
-  
-  .check li a::before {
+}
+
+.check li a::before {
     content: '';
     position: absolute;
     top: 0;
@@ -662,36 +683,37 @@ img {
     transition: .5s;
     transform: scale(.9);
     z-index: -1;
-  }
-  
-  .check li a:hover::before {
+}
+
+.check li a:hover::before {
     transform: scale(1.1);
     box-shadow: 0 0 15px #ffee10;
-  }
-  
-  .check li a:hover {
+}
+
+.check li a:hover {
     color: #ffee10;
     box-shadow: 0 0 5px #ffee10;
     text-shadow: 0 0 5px #ffee10;
-  }
+}
 
 
-.btncard{
+.btncard {
     justify-content: baseline;
 }
 
 
 .w3-container {
-    
-  border: none;
-  padding: 50px;
-  margin: 20px;
-  margin-top: 1px;
+
+    border: none;
+    padding: 50px;
+    margin: 20px;
+    margin-top: 1px;
 
 }
-.w3_img{
-    width:"50px";
-  height:"80px";
+
+.w3_img {
+    width: "50px";
+    height: "80px";
 }
 
 .black-box {
@@ -701,9 +723,9 @@ img {
     height: 400px;
     width: 100%;
     margin: 80px;
-  }
-  
-  .gray-box {
+}
+
+.gray-box {
     position: absolute;
     z-index: 3;
     /* background: lightgray; */
@@ -712,9 +734,9 @@ img {
     left: 40px;
     bottom: 200px;
     top: 20px;
-  }
-  
-  .green-box {
+}
+
+.green-box {
     position: absolute;
     z-index: 3;
     /* background: lightgreen; */
@@ -722,35 +744,38 @@ img {
     left: 230px;
     top: 15px;
     height: 700px;
-  }
-  .conainer{
+}
+
+.conainer {
     position: relative;
     max-height: fit-content;
-  }
-  /* Media query for phone devices */
-  @media only screen and (max-width: 900px) {
+}
+
+/* Media query for phone devices */
+@media only screen and (max-width: 900px) {
     .black-box {
-      margin: 5px;
+        margin: 5px;
     }
-  
+
     .gray-box {
-      width: 90%;
-      left: 1%; 
-       bottom: 100px;
-      z-index: 2;
+        width: 90%;
+        left: 1%;
+        bottom: 100px;
+        z-index: 2;
     }
-  
+
     .green-box {
         left: 163px;
-      z-index: 2;
-      position: absolute;
+        z-index: 2;
+        position: absolute;
     }
-    .conainer{
+
+    .conainer {
         justify-content: center;
         align-items: center;
     }
-    .clip{
+
+    .clip {
         z-index: 5%;
     }
-  }
-  
+}
